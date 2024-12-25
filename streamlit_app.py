@@ -34,7 +34,7 @@ pg = st.navigation(
 
 # --- SHARED ON ALL PAGES ----
 # st.logo("assets/logophoto.jpg")
-# st.sidebar.text("Made with  by Arona")
+st.sidebar.text("Made with 💫by Arona")
 
 
 # --- Run navigation ---

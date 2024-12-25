@@ -8,7 +8,7 @@ def show_contact_form():
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap='small', vertical_alignment='center')
 with col1:
-    st.image("./assets/logophoto.jpg", width=200)
+    st.image("./assets/logophoto.png", width=200)
 with col2:
     st.title("Barry Arona", anchor=False)
     st.write(
