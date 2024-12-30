@@ -17,7 +17,7 @@ with col2:
     st.title("Barry Arona", anchor=False)
     st.write("👋 Python Developer and Data Analysis Apprentice (Open to Work)")
 
-    if st.button("Contact Me"):
+    if st.button("💬Contact Me"):
         show_contact_form()
 
 # --- EXPÉRIENCE ---

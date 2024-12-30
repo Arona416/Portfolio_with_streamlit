@@ -11,16 +11,24 @@ about_page = st.Page(
     # default=True,
 )
 project_1_page = st.Page(
-    page="views/sales_dashbord.py",
-    title="Sales Dashboard",
+    page="views/site_budget.py",
+    title="site_budget",
     icon=":material/bar_chart:",
 
 )
 project_2_page = st.Page(
-    page = "views/chatbot.py",
-    title = "Chat_bot",
-    icon = ":material/smart_toy:", 
+    page="views/shop_coffe.py",
+    title="site_coffe",
+    icon="☕",
+
 )
+
+# project_3_page = st.Page(
+#     page = "views/shop_coffe",
+#     title = "shop_coffe",
+#     icon = ":material/smart_toy:", 
+# )
+
 
 # ---Navigation SETUP 
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -34,7 +42,7 @@ pg = st.navigation(
 
 # --- SHARED ON ALL PAGES ----
 # st.logo("assets/logophoto.jpg")
-st.sidebar.text("Made with 💫by Arona")
+st.sidebar.text("Made with 💡 by Arona")
 
 
 # --- Run navigation ---
