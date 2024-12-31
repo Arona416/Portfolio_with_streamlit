@@ -51,8 +51,23 @@ st.markdown(
     """,
     unsafe_allow_html=True, 
 )
+st.markdown("""
+<style>
+    a { text-size: 25px;
+       color: #4CAF50;     
+       text-decoration:none
+       font-weigth:bold
+                      
+     }
+    a:hover{
+            color: #ff5733
+            }
+</style>
+[click here to visit the site](https://651013d15ed17f49bf60fdd1--soft-cucurucho-bd959b.netlify.app/))
+            
+""", unsafe_allow_html= True )
 
-st.markdown("[Ajouter dépenses](#)")
+# st.markdown("[Click here to visit site](https://651013d15ed17f49bf60fdd1--soft-cucurucho-bd959b.netlify.app/)")
 st.markdown("---")
 st.markdown(
     """

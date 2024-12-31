@@ -3,6 +3,20 @@ import streamlit as st
 st.title("Shop Coffe")
 st.image("./assets/shop_coffe.png")
 st.markdown("---")
+st.markdown("""
+<style>
+a {
+    font-size: 25px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #FF5733;
+}
+</style>
+[Click here to visit the site](https://6471ab707840e24a37fe1cb1--remarkable-yeot-c205df.netlify.app/#)
+""", unsafe_allow_html= True )
 st.markdown(
           """"
            - ** Welcome to Shop_Coffe, your go-to destination for the perfect coffee experience.
