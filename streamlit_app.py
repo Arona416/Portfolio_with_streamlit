@@ -22,6 +22,17 @@ project_2_page = st.Page(
     icon="☕",
 
 )
+anssi_certicat = st.Page(
+    page="views/anssi.py",
+    title="ANSSI certificat"
+
+)
+fcc_js_certicat = st.Page(
+    page="views/fcc_js.py",
+    title=" FCC_js certificat"
+
+)
+
 
 # project_3_page = st.Page(
 #     page = "views/shop_coffe",
@@ -36,7 +47,8 @@ project_2_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page],
+        "Projects": [project_1_page, project_2_page,],
+        "Certifications":[ anssi_certicat, fcc_js_certicat]
     }
 )
 
