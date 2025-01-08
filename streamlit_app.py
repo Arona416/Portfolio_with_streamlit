@@ -8,7 +8,7 @@ about_page = st.Page(
     page="views/about_me.py",
     title="About Me",
     icon = ":material/account_circle:",
-    # default=True,
+    default=True,
 )
 project_1_page = st.Page(
     page="views/site_budget.py",
@@ -32,17 +32,6 @@ fcc_js_certicat = st.Page(
     title=" FCC_js certificat"
 
 )
-
-
-# project_3_page = st.Page(
-#     page = "views/shop_coffe",
-#     title = "shop_coffe",
-#     icon = ":material/smart_toy:", 
-# )
-
-
-# ---Navigation SETUP 
-# pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 
 pg = st.navigation(
     {

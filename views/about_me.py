@@ -31,7 +31,7 @@ st.markdown(
       *Description*: 4th-year student specializing in data analysis and interactive application development using Python and Streamlit.  
       *Key Achievements*:
         - Developed an interactive application for descriptive analysis and blockchain data visualization.
-        - Completed personal and academic projects using Python, Django, SQL, and VirtualBox.
+        - Completed personal and academic projects using Python, Django, SQL.
 
     - **Independent Project Developer**  
       *Duration*: 2023 - Present  
@@ -46,10 +46,12 @@ st.subheader("Hard Skills", anchor=False)
 st.markdown(
     """
     - **Programming Languages**: Python (advanced), SQL, HTML/CSS, JavaScript.  
-    - **Frameworks and Tools**: Django, Streamlit, VirtualBox.  
+    - **Frameworks and Tools**: Django, Streamlit, Docker, Nginx, BeautifulSoup (for web scraping).  
     - **Data Analysis**: 
         - Skilled in data visualization using Matplotlib, Seaborn, and pandas.  
         - Solid understanding of blockchain concepts and cryptocurrency basics.  
     - **Languages**: French, English, Russian.  
     """
 )
+
+
